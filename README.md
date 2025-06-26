@@ -4,34 +4,19 @@ A full-stack URL Shortener application with user authentication, dashboard, and 
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-### Backend (Located in `BACKEND/`)
-- 🟩 **Node.js**: JavaScript runtime for server-side development
-- ⚡ **Express.js**: Web framework for Node.js
-- 🍃 **MongoDB**: NoSQL database for storing users and URLs
-- 🧩 **Mongoose**: ODM for MongoDB
-- 🔐 **JWT (JSON Web Tokens)**: Authentication and authorization
-- 🧂 **bcrypt**: Password hashing
-- 🌱 **dotenv**: Environment variable management
-- 🌐 **CORS**: Cross-Origin Resource Sharing
-- 🛡️ **Other Utilities**: Custom middleware, error handling, helper utilities
-
-### Frontend (Located in `FRONTEND/`)
-- ⚛️ **React**: Frontend library for building user interfaces
-- ⚡ **Vite**: Fast build tool and development server
-- 🛒 **Redux Toolkit**: State management
-- 🔗 **Axios**: HTTP client for API requests
-- 🧭 **React Router**: Client-side routing
-- 🧹 **ESLint**: Linting and code quality
-- 🎨 **CSS**: Styling
+- **Backend:** Node.js, Express.js, MongoDB
+- **Frontend:** React, Vite, Redux Toolkit
 
 ---
 
 ## ✨ Features
 - 👤 User registration and login
-- 🔑 JWT-based authentication
 - ✂️ Create, view, and manage short URLs
+- 📉 Shorten URLs
+- 🔁 Redirect shortened URLs to the original URLs
+- 🔢 Track the number of visits for each URL
 - 📊 User dashboard with analytics
 - 📱 Responsive UI
 
